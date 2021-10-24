@@ -1,0 +1,107 @@
+.road {
+  width: 1000px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#car {
+  width: 250px;
+  top: 70px;
+  position: absolute;
+  left: 1000px;
+  
+  
+  
+}
+
+@keyframes car {
+  0% {
+      top: 80px;
+      left: 350px;
+      transform: rotate(0deg) ;
+      
+  }
+  15% {
+      top: 80px;
+      left: 550px;
+      transform: rotate(0deg)
+  }
+  
+  20% {
+      top: 80px;
+      left: 1200px;
+      transform: rotate(0deg);
+     
+  }
+  25% {
+      top: 80px;
+      left: 1650px;
+      transform: rotate(0deg);
+  }
+  40% {
+      top: 200px;
+      left: 1650px;
+      transform: rotate(90deg);
+
+  }
+
+  50% {
+      top: 400px;
+      left: 1650px;
+      transform: rotate(90deg);
+  }
+  60% {
+      top: 650px;
+      left: 1650px;
+      transform: rotate(90deg);
+  }
+  65% {
+      top: 840px;
+      left: 1650;
+      transform: rotate(180deg);
+  }
+  70% {
+      top: 840px;
+      left: 1200px;
+      transform: rotate(180deg);
+  }
+  75% {
+      top: 840px;
+      left: 1000px;
+      transform: rotate(180deg);
+  }
+  78% {
+      top: 840px;
+      left: 1000px;
+      transform: rotate(270deg);
+  }
+  85% {
+      top: 600px;
+      left: 1000px;
+      transform: rotate(270deg);
+  }
+  90% {
+      top: 300px;
+      left: 1000px;
+      transform: rotate(270deg);
+  }
+  95% {
+      top: 150px;
+      left: 1000px;
+      transform: rotate(270deg);
+  }
+  100% {
+      top: 80px;
+      left: 1000px;
+      transform: rotate(360deg);
+  }
+}
+
+#car {
+  animation: car normal 10s linear 1s infinite;
+}

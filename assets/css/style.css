@@ -1,0 +1,23 @@
+* {
+    font-size: 15px;
+    font-family:'IM Fell Great Primer', serif;
+
+}
+.form-group {
+    width: 40vw;
+    border: 1px solid rgb(235, 229, 229);
+    border-radius: 5px;
+    margin: auto;
+    padding: 5rem;
+}
+small + small {
+    display: none;
+}
+
+input:valid + small {
+    display: none;
+}
+
+input:valid + small + small {
+    display: block;
+}
